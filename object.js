@@ -42,3 +42,5 @@ var d = 'd';
 obj[d] = 14;
 obj['e']=15;
 console.log(obj);
+delete obj.e
+console.log(obj);
