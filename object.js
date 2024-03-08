@@ -32,3 +32,13 @@ console.log(obj.b);
 // Array notation access
 console.log(obj['a']);
 console.log(obj['b']);
+
+// Replace value using array notation
+obj['a'] = 12;
+obj['b'] = 13;
+console.log(obj);
+// Insert new value using array notation
+var d = 'd';
+obj[d] = 14;
+obj['e']=15;
+console.log(obj);
