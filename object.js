@@ -19,3 +19,16 @@ console.log(obj3);
 var obj4 = new Object();
 obj4.e = 60; /* Insert new value */
 console.log(obj4);
+
+// Accessing object properties and value
+var obj = {
+    a: 11,
+    b: 12,
+    c: 13,
+}
+// Dot notation access
+console.log(obj.a);
+console.log(obj.b);
+// Array notation access
+console.log(obj['a']);
+console.log(obj['b']);
